@@ -1,0 +1,42 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary notebook exports
+*.nbconvert.ipynb
+
+# Ignore large data/model files
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.sav
+*.parquet
+*.npy
+*.npz
+
+# Ignore log/output/cache files
+*.log
+*.tmp
+*.out
+*.cache
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
